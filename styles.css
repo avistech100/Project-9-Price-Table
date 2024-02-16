@@ -72,8 +72,7 @@ section > :last-child{
     background-color: rgb(240, 161, 16);
     color: white;
 }
-.p-body{
-}
+
 .feature{
     display: flex;
 }
@@ -121,4 +120,60 @@ button:focus{
   background-color: orangered;
   padding: 3px 7px;
   border-radius: 3px;
+}
+@media screen and (max-width: 765px) {
+    .price{
+        padding: 20px;
+    }
+    .top{
+        font-size: .7rem;
+    }
+    .buttom{
+        font-size: .5rem; 
+    }
+    .middle{
+        font-size: 1.75rem;
+    }
+    .feature > p {
+        padding-left: 14px;
+        font-size: .8rem;
+    }
+    .up{
+        top: -13px;
+        right:28px;
+        font-size: .8em;
+      }
+}
+@media screen and (max-width: 540px) {
+    .price{
+        padding: 2px;
+    }
+    .feature{
+        margin-left: 12px;
+    }
+    .feature > p {
+        padding-left: 10px;
+        font-size: .7rem;
+    }
+    .p-header{
+        margin-top: 25px;
+    }
+    .up{
+        top: -13px;
+        right:28px;
+        font-size: .8em;
+      }
+    button{
+        font-size: .6rem;
+        padding: 8px ;
+        width: 100px;
+    }
+    .price{
+        padding-bottom: 30px;
+    }
+    .up{
+        top: -5px;
+        right:28px;
+        font-size: .5em;
+      }
 }
